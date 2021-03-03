@@ -1,0 +1,81 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../Images/bg-2.svg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  margin: 5% auto;
+  max-width: 55%;
+}
+header {
+  margin: 2.5rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.65rem;
+}
+#survey-form {
+  background-color: rgb(158, 181, 243);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 75%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin: 0.5%;
+}
+
+.name,
+.email,
+.age,
+.gender,
+.recomendation,
+.movie-genres,
+.text-input,
+.submit-btn {
+  padding-bottom: 0.85rem;
+}
+.movie-genres label {
+  display: inline;
+}
+.recomendation label {
+  display: inline;
+}
+
+.name input,
+.email input,
+.age input,
+textarea,
+#submit {
+  width: 100%;
+  border: 1px solid rgb(132, 162, 243);
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+#submit {
+  background-color: rgb(81, 81, 211);
+  color: #f0ffff;
+}
+#submit:hover {
+  background-color: rgb(11, 11, 204);
+}
+footer {
+  font-size: 0.65rem;
+  margin-top: 8%;
+  text-align: center;
+}
+footer p {
+  padding: 0.5%;
+}
